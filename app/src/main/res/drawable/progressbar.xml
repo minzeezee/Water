@@ -1,0 +1,62 @@
+
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@android:id/background">
+            <shape>
+                <corners android:radius="8dp"/>
+                <solid android:color="@color/purple"/>
+            </shape>
+        </item>
+
+        <item android:id="@android:id/progress"
+            android:top="1dp"
+            android:bottom="1dp"
+            android:left="1dp"
+            android:right="1dp">
+
+            <scale android:scaleWidth="100%">
+                <shape>
+                    <corners android:radius="8dp"/>
+                    <gradient android:endColor="@color/purple"/>
+                    <gradient android:startColor="@color/purple_tho"/>
+                </shape>
+            </scale>
+        </item>
+    </layer-list>
+    <!-- Define the background properties like color etc -->
+    <!--<item android:id="@android:id/background">
+        <shape>
+            <gradient
+                android:startColor="#F2EFEF"
+                android:centerColor="#F2EFEF"
+                android:centerY="3.0"
+                android:endColor="#F2EFEF"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+
+    &lt;!&ndash; Define the progress properties like start color, end color etc &ndash;&gt;
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="#6e5ef0"
+                    android:centerColor="#4e5ef0"
+                    android:centerY="1.0"
+                    android:endColor="#06101d"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp"/>
+                <solid android:color="@color/colorPrimaryDark"/>
+            </shape>
+        </clip>
+    </item>-->
+
